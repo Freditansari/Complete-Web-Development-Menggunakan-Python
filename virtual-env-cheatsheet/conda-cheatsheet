@@ -1,0 +1,21 @@
+conda info => check conda installed
+
+conda update conda => update conda
+
+conda create --name machine_learning_environments
+
+conda env list
+
+conda create --clone nama_environment --name nama_env_baru ==> clone new env
+
+windows: activate nama_env
+linux/mac : source activate nama_env
+
+install using pip: pip install <package_name>
+
+pip freeze > requirements.txt
+
+pip install -r .\requirements.txt
+
+*** download this for more details **
+https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
