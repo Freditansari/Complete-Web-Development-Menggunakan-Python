@@ -10,6 +10,6 @@ def hello_world():
 
 @app.route('/hello/<string:name>', methods=['GET']) #intentional error
 def say_hello(name):
-    return f'Hello {nam}, welcome to my basic website.'
+    return f'Hello {name[99]}, welcome to my basic website.'
 
 
