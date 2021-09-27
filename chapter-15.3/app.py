@@ -11,7 +11,7 @@ app = Flask(__name__)
 def blog_home():
     headline = 'World Peace Achieved!'
     lead = 'abc laughed a lot and all the world leaders grown a sense of humor'
-    return render_template('home.html', headline=headline, lead=lead)
+    return render_template('home.html', headline=headline, lead=lead, is_true = True)
 
 
 if __name__ == 'main':
